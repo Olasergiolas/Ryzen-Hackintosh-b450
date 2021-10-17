@@ -8,5 +8,8 @@ MSI B450 A-PRO MAX (Realtek 8111H)</br>
 SAPPHIRE R9 380</br>
 Samsung 970 Evo SSD</br>
 
+## Important note
+New AMD kernel patches require you to add your CPU's CoreCount before you can boot your system. Currently, these patches are configured to work with a 6 core CPU (ryzen 5 3600) but if you own a CPU with a different CoreCount you should check [this](https://github.com/AMD-OSX/AMD_Vanilla#read-me-first) before trying to boot with my OC folder.
+
 
 This was achieved thanks to the people at https://dortania.github.io/OpenCore-Desktop-Guide/
